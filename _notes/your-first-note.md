@@ -1,21 +1,21 @@
 ---
 title: Your first seed
----
 
+---
 ### Welcome!
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
+This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. hu
 
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
 
-- Using the note title: [[a note about cats]]
-- Using the note's filename: [[cats]]
-- Using the note's title, with a label: [[A note about cats|link to the note about cats using the note title]]
-- Using the note's filename, with a label: [[cats|link to the note about cats using the note's filename]]
+* Using the note title: \[\[a note about cats\]\]
+* Using the note's filename: \[\[cats\]\]
+* Using the note's title, with a label: \[\[A note about cats|link to the note about cats using the note title\]\]
+* Using the note's filename, with a label: \[\[cats|link to the note about cats using the note's filename\]\]
 
-In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].
+In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: \[\[there is no note that matches this link\]\].
 
 Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
 
@@ -31,7 +31,7 @@ Notice in the "Notes mentioning this note" section that there is another note li
 
 ### Link previews
 
-If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].
+If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: \[\[a note about cats\]\].
 
 ### Images and other Markdown goodies
 
@@ -39,9 +39,9 @@ Finally, because you have the full power of Markdown in this template, you can u
 
 Lists work as expected:
 
-- List element A
-- List element B
-- List element C
+* List element A
+* List element B
+* List element C
 
 1. List element
 2. List element
@@ -75,10 +75,9 @@ end
 $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
 ```
 
-
 ### Next steps
 
-**If this template is useful to you in any way, consider [donating](https://ko-fi.com/maximevaillancourt) to support my work**. ☕
+**If this template is useful to you in any way, consider** [**donating**](https://ko-fi.com/maximevaillancourt) **to support my work**. ☕
 
 This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
