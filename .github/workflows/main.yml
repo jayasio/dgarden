@@ -1,4 +1,4 @@
-name: Jekyll Deploy
+name: Jekyll Deploy 2
 
 on: [push]
 
@@ -6,10 +6,7 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Build & Deploy to GitHub Pages
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+      - uses: actions/checkout@v2
+      - uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
