@@ -1,5 +1,5 @@
 ---
-title: A note about cats
+title: I'm a cat person
 endofline: 🦩
 ---
 

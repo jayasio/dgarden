@@ -75,6 +75,26 @@ end
 $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
 ```
 
+```dart
+// This example shows how *not* to write asynchronous Dart code.
+
+String createOrderMessage() {
+  var order = fetchUserOrder();
+  return 'Your order is: $order';
+}
+
+Future<String> fetchUserOrder() =>
+    // Imagine that this function is more complex and slow.
+    Future.delayed(
+      Duration(seconds: 2),
+      () => 'Large Latte',
+    );
+
+void main() {
+  print(createOrderMessage());
+}
+```
+
 ### Next steps
 
 **If this template is useful to you in any way, consider** [**donating**](https://ko-fi.com/maximevaillancourt) **to support my work**. ☕
