@@ -5,20 +5,24 @@ id: home
 permalink: /
 ---
 
-#  Hallo! 🥬
+<h1>🌿</h1>
+#  Hallo! I'm Jayasurya, <br/>this is my digital garden.
 
-This is my digital garden. As I see, it's between a notes app and a blog.  
+I use it to organize my thoughts, observations, and bits of information.  
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-<!-- <p style="padding: 3em 1em; background: #fff6f2; border-radius: 4px;"> -->
-  Current entry points I'm currently interested: <br/>
-  - [[cats]]<br/>
-  - [[Design]]<br/>
-  - [[Dart]]<br/>
-  - [[Flutter]]<br/>
+<p class="primary-container">
+  Entry points to the garden: <br/>
+  • [[cats]]<br/>
+  • [[Design]]<br/>
+  • [[Dart]]<br/>
+  • [[Flutter]]<br/>
 </p>
 
-Based on an open-source template(<a class="link" href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">Github</a>) by <a class="link" href="https://twitter.com/vaillancourtmax">@vaillancourtmax</a>.
+###  What's a digital garden?
+
+<p class="secondary-container">
+Based on the <a class="link" href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">open-source template</a> by <a class="link" href="https://twitter.com/vaillancourtmax">@vaillancourtmax</a>, with inspiration from forks of other digital gardeners.
+</p>
 
 <style>
   .wrapper {

@@ -1,5 +1,6 @@
 ---
 title: A note about cats
+endofline: 🦩
 ---
 
 This is a second note with a poem with cats. 

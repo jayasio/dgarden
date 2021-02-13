@@ -1,5 +1,6 @@
 ---
 title: Consistency is key
+endofline: a
 ---
 
 Show up. Do the work. Be consistent.
