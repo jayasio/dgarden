@@ -4,4 +4,11 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: A name for the note.
+- name: endofline
+  type: text
+  config:
+    required: false
+  label: End of Line
+  description: An emoji to signify end of note.
