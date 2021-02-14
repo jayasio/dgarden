@@ -1,5 +1,15 @@
-<div class="navbar">
+<div class="navbar" id="navbar" style="max-width: 960px;">
     <a id="homeLink" class="internal-link" href="{{ site.baseurl }}/">
-        <b>dgarden</b>
+        <b>jayas.me</b>
     </a>
+
 </div>
+
+<script>
+    // console.log(document.location);
+    // console.log(document.referrer);
+    baselink = "<a id=\"homeLink\" class=\"internal-link\" href=\"{{ site.baseurl }}/\"><b>jayas.me</b></a>"
+    if (document.location.pathname.includes("/portfolio") || document.referrer.includes("/portfolio")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>";
+    // if (document.location.pathname.includes("/now")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/now\"><b>now</b></a>";
+    if (document.location.pathname == "/") document.getElementById('navbar').innerHTML = baselink
+</script>

@@ -5,28 +5,37 @@ id: home
 permalink: /
 ---
 
-<h1>🌿</h1>
-# Hallo! I'm Jayasurya, <br/>this is my digital garden.
-<img src="assets/asd.png" style="object-fit: cover; height: 12.5rem; width: 960px; margin: 3rem 0rem;"/>
-I use it to organize my thoughts, observations, and bits of information. Consider it a digital brain, a second brain that I curate my knowledge in. It's between a Google Keep and a Wikipedia, iykwim.  
+<h1>🌿<br />Hallo! I'm <a class="internal-link internal-link-page" href="/about">Jayasurya</a>,<br />this is my digital garden.</h1>
+<p>
 
-<div class="primary-container" style="display:grid; grid-template-colums: 1fr 1fr 1fr;
-">
-  <div style="grid-column: 1/4;">🚪 Good entry points into the garden—<br/><br/></div>
-  <div>[["Design"]]</div>
+</p>
+<div class="secondary-container" style="background-color: #fafafa">
+Other places—
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/portfolio"><b>Design Portfolio</b></a>
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/now"><b>Now</b></a>
+</div>
+
+<img src="assets/pix2.png" style="object-fit: cover; height: 180px; width: 960px; margin: 2rem 0rem;"/>
+Here I organize my thoughts, observations, and bits of information.
+Something like a digital mind, a second brain where I curate the things I know, the things I think I know and everything else.
+
+<div class="primary-container">
+Good entry points into the garden—<br/><br/>
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-columns: minmax(240px, 1fr);">
+  <div>[[design|"Design"]]</div>
   <div>[[Graphical User Interfaces]]</div>
-  <div>[[Dart]]</div>
-  <div>[[Functional / Imperative]]</div>
+  <div>[[Dart Language]]</div>
+  <div>[[Functional and Imperative]]</div>
   <div>[[Thought abstractions]]</div>
   <div>[[Minecraft]]</div>
   <div>[[Dune]]</div>
-  <div>[[I'm a cat person]]</div>
+  <div>[[Pruning in a dgarden]] <sup>(meta)</sup></div>
+  <div>[[I'm a cat person]] <sup>(first)</sup></div>
+  </div>
 </div>
-
-<p style="font-size: 1rem;" class="secondary-container">
-Based on the <a class="link" href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">open-source template</a> by <a class="link" href="https://twitter.com/vaillancourtmax">@vaillancourtmax</a>, with inspiration from forks of other digital gardeners.
-</p>
-
+ 
 <style>
   .wrapper {
     max-width: 46em;

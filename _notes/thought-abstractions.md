@@ -1,0 +1,4 @@
+---
+title: Thought Abstractions
+endofline: 💭
+---

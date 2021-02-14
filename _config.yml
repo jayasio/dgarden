@@ -23,7 +23,10 @@ sass:
 collections:
   notes:
     output: true
-    permalink: /:slug
+    permalink: /dgarden/:slug
+  portfolio:
+    output: true
+    permalink: /portfolio/:path
 
 defaults:
   - scope:
@@ -34,3 +37,8 @@ defaults:
       path: "_notes/**/*.md"
     values:
       layout: "note"
+  - scope:
+      path: "_portfolio/**/*.md"
+    values:
+      layout: "portfolio"
+      

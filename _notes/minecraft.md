@@ -1,0 +1,4 @@
+---
+title: Minecraft
+endofline: ⛏
+---
