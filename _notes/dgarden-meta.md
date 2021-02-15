@@ -1,6 +1,6 @@
 ---
-title: Pruning in a dgarden
+title: Art of Gardening
 endofline: 🌸
 ---
 
-Pruning dgarden
+Art of Gardening

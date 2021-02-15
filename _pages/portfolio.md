@@ -4,7 +4,24 @@ title: Portfolio
 id: portfolio
 permalink: /portfolio
 ---
+# ✏
+# Hallo! I'm Jayasurya,<br />I design good digital experiences.
+<p>
 
-<h1>✏<br />Hallo! I'm <a class="internal-link internal-link-page" href="/about">Jayasurya</a>,<br />I design good digital experiences.</h1>
+</p>
+<div class="secondary-container" style="background-color: #fafafa">
+Other places—
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/dgarden"><b>Digital Garden</b></a>
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/now"><b>Now</b></a>
+</div>
 
-[[Dune]]
+Still under construction 😅
+Meanwhile, here's my [<span style="color: blue;"><b>Behance</b></span>](https://behance.net/jayabsurdyeah)
+
+<style>
+  .wrapper {
+    max-width: 46em;
+  }
+</style>

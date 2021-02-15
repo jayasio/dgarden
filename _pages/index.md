@@ -1,41 +1,73 @@
 ---
-layout: page
 title: Home
 id: home
 permalink: /
 ---
+# 👋
+# Hallo! I'm Jayasurya.
+## I am a designer + developer <br/>from Mumbai, India.
+<div style="height:1rem"></div>
+Purposeful design and technology interest me. Spending my free time designing and building apps to manage my routines. Getting into pixel art recently. I love Tamil cinema, will probably make a must-watch list sometime. Dune fanatic. See what I'm up to <a class="internal-link internal-link-page" href="/now">now</a>.
 
-<h1>🌿<br />Hallo! I'm <a class="internal-link internal-link-page" href="/about">Jayasurya</a>,<br />this is my digital garden.</h1>
-<p>
-
-</p>
-<div class="secondary-container" style="background-color: #fafafa">
-Other places—
-&nbsp;
-<a style="color: teal" class="internal-link no-preview" href="/portfolio"><b>Design Portfolio</b></a>
-&nbsp;
-<a style="color: teal" class="internal-link no-preview" href="/now"><b>Now</b></a>
+Currently studying at IDC School of Design, IIT Bombay. Here's my [<span style="color:teal"><b>resume</b></span>](/resume).
+<hr>
+<div style="height:1rem"></div>
+<div class="card-grid-2">
+    <a 
+    style="background-color: #e6f1f4; margin-bottom: 1.5rem;" 
+    class="card-container card-link" 
+    href="/portfolio">
+      <b>
+      Design Portfolio</b>
+    <br/>
+    Some of the projects I've worked on.
+      <br/>
+    <span class="card-arrow">→</span>
+    </a>
+    <a 
+     style="background-color: #e6f1f4; margin-bottom: 1.5rem;" 
+     class="card-container card-link"
+     href="/dgarden">
+      <b>
+      dgarden</b>
+      <br/>
+    My digital garden. Check it out!
+    <br/>
+    <span class="card-arrow">→</span>
+    </a>
 </div>
-
-<img src="assets/pix2.png" style="object-fit: cover; height: 180px; width: 960px; margin: 2rem 0rem;"/>
-Here I organize my thoughts, observations, and bits of information.
-Something like a digital mind, a second brain where I curate the things I know, the things I think I know and everything else.
-
-<div class="primary-container">
-Good entry points into the garden—<br/><br/>
-<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-columns: minmax(240px, 1fr);">
-  <div>[[design|"Design"]]</div>
-  <div>[[Graphical User Interfaces]]</div>
-  <div>[[Dart Language]]</div>
-  <div>[[Functional and Imperative]]</div>
-  <div>[[Thought abstractions]]</div>
-  <div>[[Minecraft]]</div>
-  <div>[[Dune]]</div>
-  <div>[[Pruning in a dgarden]] <sup>(meta)</sup></div>
-  <div>[[I'm a cat person]] <sup>(first)</sup></div>
+<div class="card-grid-3">
+    <a 
+    style="background-color: #f9f9f9; margin-bottom: 1.5rem;" 
+    class="card-container card-link" 
+    href="mailto:hey@jayas.me">
+      <b>
+      Mail me</b>
+    <span class="card-arrow">→</span>
+    </a>
+    <a 
+     style="background-color: #f9f9f9; margin-bottom: 1.5rem;" 
+     class="card-container card-link"
+     href="https://github.com/jayasio">
+      <b>
+      Github</b>
+    <span class="card-arrow">→</span>
+    </a>
+    <a 
+     style="background-color: #f9f9f9; margin-bottom: 1.5rem;" 
+     class="card-container card-link"
+     href="https://medium.com/@jayabsurdyeah">
+      <b>
+      Medium</b>
+    <span class="card-arrow">→</span>
+    </a>
+</div>
+  <div class="secondary-container" style="background-color: #060606; color: white">
+    This site is under construction!
   </div>
-</div>
- 
+
+  <!-- <img src="../assets/96.jpg" style="object-fit: cover; width: 960px; margin: 1.5rem 0rem;"/> -->
+
 <style>
   .wrapper {
     max-width: 46em;
