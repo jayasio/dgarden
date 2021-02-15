@@ -43,28 +43,47 @@
     <a id="homeLink" class="internal-link" href="/">
         <b>jayas.me</b>
     </a>
-
 </div>
 
 <script>
     // console.log(document.location);
     // console.log(document.referrer);
     baselink = "<a id=\"homeLink\" class=\"internal-link\" href=\"/\"><b>jayas.me</b></a>"
-    if (document.location.pathname.includes("/portfolio") || document.referrer.includes("/portfolio")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>";
-    // if (document.location.pathname.includes("/now")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/now\"><b>now</b></a>";
+    if (document.location.pathname.includes("/dgarden") ) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/dgarden\"><b>dgarden</b></a>"
+    if (document.location.pathname.includes("/portfolio")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>"
+    if (document.location.pathname.includes("/about")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/about\"><b>about</b></a>"
     if (document.location.pathname == "/") document.getElementById('navbar').innerHTML = baselink
-</script></nav>
+</script>
+</nav>
   <div class="wrapper">
     <main>  <content>
-    <h1>✏<br />Hallo! I'm <a class="internal-link internal-link-page" href="/about">Jayasurya</a>,<br />I design good digital experiences.</h1>
+    <h1>✏</h1>
+<h1 id="hallo-im-jayasuryai-design-good-digital-experiences">Hallo! I’m Jayasurya,<br />I design good digital experiences.</h1>
+<p>
 
-<p><a class="internal-link" href="/dgarden/dune">Dune</a></p>
+</p>
+<div class="secondary-container" style="background-color: #fafafa">
+Other places—
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/dgarden"><b>Digital Garden</b></a>
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/now"><b>Now</b></a>
+</div>
+
+<p>Still under construction 😅
+Meanwhile, here’s my <a href="https://behance.net/jayabsurdyeah"><span style="color: blue;"><b>Behance</b></span></a></p>
+
+<style>
+  .wrapper {
+    max-width: 46em;
+  }
+</style>
+
 
   </content>
 </main>
-    <footer>Jayasurya 🐿 <a class="internal-link" href="/about">About</a>.
-Check out my <a class="internal-link" href="/portfolio">Design Portfolio</a>. Here's my <a class="link"
-    href="https://github.com/jayasio">Github</a>.<br /></footer>
+    <footer>🐿 Jayasurya 
+<!-- <a class="internal-link" href="/about">About</a>. --></footer>
   </div>
 
   <!-- That file is not particularly elegant. This will need a refactor at some point. -->

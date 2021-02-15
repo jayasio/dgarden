@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="canonical" href="/about" />
+  <link rel="canonical" href="/dgarden" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,19 +20,19 @@
   
 
   
-  <meta property="og:title" content="About">
+  <meta property="og:title" content="dgarden">
   <meta property="og:type" content="article">
   
 
   
 
-  <meta property="og:url" content="/about" />
+  <meta property="og:url" content="/dgarden" />
 
   
 
   <title>
     
-      About &mdash; Jayasurya's digital garden
+      dgarden &mdash; Jayasurya's digital garden
     
   </title>
 </head>
@@ -43,40 +43,52 @@
     <a id="homeLink" class="internal-link" href="/">
         <b>jayas.me</b>
     </a>
-
 </div>
 
 <script>
     // console.log(document.location);
     // console.log(document.referrer);
     baselink = "<a id=\"homeLink\" class=\"internal-link\" href=\"/\"><b>jayas.me</b></a>"
-    if (document.location.pathname.includes("/portfolio") || document.referrer.includes("/portfolio")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>";
-    // if (document.location.pathname.includes("/now")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/now\"><b>now</b></a>";
+    if (document.location.pathname.includes("/dgarden") ) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/dgarden\"><b>dgarden</b></a>"
+    if (document.location.pathname.includes("/portfolio")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>"
+    if (document.location.pathname.includes("/about")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/about\"><b>about</b></a>"
     if (document.location.pathname == "/") document.getElementById('navbar').innerHTML = baselink
-</script></nav>
+</script>
+</nav>
   <div class="wrapper">
     <main>  <content>
-    <h2 id="jayasurya-sudakaran-jayas">Jayasurya Sudakaran (Jayas)</h2>
+    <h1>🌿</h1>
+<h1 id="hallo-im-jayasuryathis-is-my-digital-garden">Hallo! I’m Jayasurya,<br />this is my digital garden.</h1>
+<p>
 
-<p>I’m a designer / developer from Mumbai, India. <br /></p>
-
-<div class="primary-container">
-A bunch of links pointing to me—<br /><br />
-<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-columns: minmax(240px, 1fr);">
-  <div>Github</div>
-  <div>Medium</div>
-  <div>LinkedIn</div>
-  <div>Instagram</div>
-  <div>Twitter</div>
-  <div>Behance</div>
-  </div>
+</p>
+<div class="secondary-container" style="background-color: #fafafa">
+Other places—
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/portfolio"><b>Design Portfolio</b></a>
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/now"><b>Now</b></a>
 </div>
 
-<h2>👋😄</h2>
+<p><img src="../assets/File_000.jpeg" style="object-fit: cover; object-position: 50% 18%;height: 200px; width: 960px; margin: 1.5rem 0rem;" /></p>
 
-<p style="font-size: 1rem;" class="secondary-container">
-Based on the <a class="link" href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">open-source template</a> by <a class="link" href="https://twitter.com/vaillancourtmax">@vaillancourtmax</a>, with inspiration from other digital gardeners.
-</p>
+<p>Here I organize my thoughts, observations, and bits of information.
+Something like a digital mind, a second brain, where I curate the things I know, the things I think I know and everything else.</p>
+
+<div class="primary-container">
+Good entry points into the garden—<br /><br />
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-columns: minmax(240px, 1fr);">
+  <div><a class="internal-link" href="/dgarden/design">"Design"</a></div>
+  <div><a class="internal-link" href="/dgarden/gui">Graphical User Interfaces</a></div>
+  <div><a class="internal-link" href="/dgarden/dartlang">Dart Language</a></div>
+  <div><a class="internal-link" href="/dgarden/functional-imperative">Functional and Imperative</a></div>
+  <div><a class="internal-link" href="/dgarden/thought-abstractions">Thought abstractions</a></div>
+  <div><a class="internal-link" href="/dgarden/minecraft">Minecraft</a></div>
+  <div><a class="internal-link" href="/dgarden/dune">Dune</a></div>
+  <div><a class="internal-link" href="/dgarden/dgarden-meta">Art of Gardening</a> <sup>(meta)</sup></div>
+  <div><a class="internal-link" href="/dgarden/cats">I'm a cat person</a> <sup>(first)</sup></div>
+  </div>
+</div>
 
 <style>
   .wrapper {
@@ -87,9 +99,8 @@ Based on the <a class="link" href="https://github.com/maximevaillancourt/digital
 
   </content>
 </main>
-    <footer>Jayasurya 🐿 <a class="internal-link" href="/about">About</a>.
-Check out my <a class="internal-link" href="/portfolio">Design Portfolio</a>. Here's my <a class="link"
-    href="https://github.com/jayasio">Github</a>.<br /></footer>
+    <footer>🐿 Jayasurya 
+<!-- <a class="internal-link" href="/about">About</a>. --></footer>
   </div>
 
   <!-- That file is not particularly elegant. This will need a refactor at some point. -->

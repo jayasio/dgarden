@@ -25,7 +25,7 @@
   
 
   
-  <meta property="article:published_time" content="2021-02-15T01:04:44+00:00">
+  <meta property="article:published_time" content="2021-02-15T01:04:53+00:00">
   <meta property="article:author" content="/">
   
 
@@ -46,22 +46,23 @@
     <a id="homeLink" class="internal-link" href="/">
         <b>jayas.me</b>
     </a>
-
 </div>
 
 <script>
     // console.log(document.location);
     // console.log(document.referrer);
     baselink = "<a id=\"homeLink\" class=\"internal-link\" href=\"/\"><b>jayas.me</b></a>"
-    if (document.location.pathname.includes("/portfolio") || document.referrer.includes("/portfolio")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>";
-    // if (document.location.pathname.includes("/now")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/now\"><b>now</b></a>";
+    if (document.location.pathname.includes("/dgarden") ) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/dgarden\"><b>dgarden</b></a>"
+    if (document.location.pathname.includes("/portfolio")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>"
+    if (document.location.pathname.includes("/about")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/about\"><b>about</b></a>"
     if (document.location.pathname == "/") document.getElementById('navbar').innerHTML = baselink
-</script></nav>
+</script>
+</nav>
   <div class="wrapper">
     <main><article>
   <div>
     <h1>Design</h1>
-    <time datetime="2021-02-15T01:00:45+00:00">
+    <time datetime="2021-02-15T01:01:03+00:00">
       Last updated on February 15, 2021
       
     </time>
@@ -142,7 +143,7 @@
     const FONT_BASELINE = 40;
     const MAX_LABEL_LENGTH = 50;
 
-    const graphData = {"edges":[{"source":"2450676456032562167","target":"205123763605857488412300959"}],"nodes":[{"id":"2450676456032562167","path":"/dgarden/cats","label":"I'm a cat person"},{"id":"1750469334201744494","path":"/dgarden/dartlang","label":"Dart language"},{"id":"810905207","path":"/dgarden/design","label":"Design"},{"id":"205123763605857488412300959","path":"/dgarden/dgarden-meta","label":"Pruning in a dgarden"},{"id":"646250","path":"/dgarden/dune","label":"Dune"},{"id":"274613200614668941229029645182679754","path":"/dgarden/functional-imperative","label":"Functional and Imperative"},{"id":"290324709977209715924593836466518100","path":"/dgarden/gui","label":"Graphical User Interfaces"},{"id":"63525906866585","path":"/dgarden/minecraft","label":"Minecraft"},{"id":"304186761133480295514013997656","path":"/dgarden/thought-abstractions","label":"Thought Abstractions"}]}
+    const graphData = {"edges":[{"source":"2450676456032562167","target":"1837659924524786978860"},{"source":"1750469334201744494","target":"274613200614668941229029645182679754"}],"nodes":[{"id":"2450676456032562167","path":"/dgarden/cats","label":"I'm a cat person"},{"id":"1750469334201744494","path":"/dgarden/dartlang","label":"Dart language"},{"id":"810905207","path":"/dgarden/design","label":"Design"},{"id":"1837659924524786978860","path":"/dgarden/dgarden-meta","label":"Art of Gardening"},{"id":"646250","path":"/dgarden/dune","label":"Dune"},{"id":"274613200614668941229029645182679754","path":"/dgarden/functional-imperative","label":"Functional and Imperative"},{"id":"290324709977209715924593836466518100","path":"/dgarden/gui","label":"Graphical User Interfaces"},{"id":"63525906866585","path":"/dgarden/minecraft","label":"Minecraft"},{"id":"304186761133480295514013997656","path":"/dgarden/thought-abstractions","label":"Thought Abstractions"}]}
     let nodesData = graphData.nodes;
     let linksData = graphData.edges;
 
@@ -391,9 +392,8 @@
     }
   </script>
 </div></main>
-    <footer>Jayasurya 🐿 <a class="internal-link" href="/about">About</a>.
-Check out my <a class="internal-link" href="/portfolio">Design Portfolio</a>. Here's my <a class="link"
-    href="https://github.com/jayasio">Github</a>.<br /></footer>
+    <footer>🐿 Jayasurya 
+<!-- <a class="internal-link" href="/about">About</a>. --></footer>
   </div>
 
   <!-- That file is not particularly elegant. This will need a refactor at some point. -->

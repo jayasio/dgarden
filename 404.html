@@ -43,26 +43,26 @@
     <a id="homeLink" class="internal-link" href="/">
         <b>jayas.me</b>
     </a>
-
 </div>
 
 <script>
     // console.log(document.location);
     // console.log(document.referrer);
     baselink = "<a id=\"homeLink\" class=\"internal-link\" href=\"/\"><b>jayas.me</b></a>"
-    if (document.location.pathname.includes("/portfolio") || document.referrer.includes("/portfolio")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>";
-    // if (document.location.pathname.includes("/now")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/now\"><b>now</b></a>";
+    if (document.location.pathname.includes("/dgarden") ) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/dgarden\"><b>dgarden</b></a>"
+    if (document.location.pathname.includes("/portfolio")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>"
+    if (document.location.pathname.includes("/about")) document.getElementById('navbar').innerHTML = "<a id=\"homeLink\" class=\"internal-link\" style=\"opacity: 1\" href=\"/\"><b>jayas.me</b></a><span style=\"margin: 0 0.5rem;\">/</span><a id=\"\" class=\"internal-link\" href=\"/about\"><b>about</b></a>"
     if (document.location.pathname == "/") document.getElementById('navbar').innerHTML = baselink
-</script></nav>
+</script>
+</nav>
   <div class="wrapper">
     <main><div>
   <h1>Oops, that's a 404. 🙈</h1>
   <p>Looks like this page doesn't exist. <a href="/">Return home</a> to get a fresh start.</p>
 </div>
 </main>
-    <footer>Jayasurya 🐿 <a class="internal-link" href="/about">About</a>.
-Check out my <a class="internal-link" href="/portfolio">Design Portfolio</a>. Here's my <a class="link"
-    href="https://github.com/jayasio">Github</a>.<br /></footer>
+    <footer>🐿 Jayasurya 
+<!-- <a class="internal-link" href="/about">About</a>. --></footer>
   </div>
 
   <!-- That file is not particularly elegant. This will need a refactor at some point. -->
