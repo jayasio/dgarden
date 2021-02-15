@@ -1,4 +1,4 @@
-name: Jekyll Deploy 2
+name: Jekyll Deploy
 
 on: [push]
 
