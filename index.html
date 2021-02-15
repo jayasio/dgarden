@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="UTF-8">
 
   <link rel="canonical" href="/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="description" content="My digital garden">
+  <meta name="description" content="Jayasurya's digital garden">
 
-  <meta property="og:site_name" content="My digital garden">
+  <meta property="og:site_name" content="Jayasurya's digital garden">
 
   <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
 
   <link rel="stylesheet" href="/styles.css">
 
   
-  <meta property="og:description" content="My digital garden"/>
+  <meta property="og:description" content="Jayasurya's digital garden"/>
   
 
   
@@ -32,29 +32,60 @@
 
   <title>
     
-      My digital garden
+      Jayasurya's digital garden
     
   </title>
 </head>
 
-  <body>
-    <nav><div>
-    <a class="internal-link" href="/"><b>My digital garden</b></a>
+
+<body>
+  <nav><div class="navbar" id="navbar" style="max-width: 960px;">
+    <a id="homeLink" class="internal-link" href="/">
+        <b>jayas.me</b>
+    </a>
+
 </div>
-</nav>
-    <div class="wrapper">
-      <main><content>
-  <h1 id="welcome-">Welcome! 🌱</h1>
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold"><a class="internal-link" href="/your-first-note">Your first note</a></span> to get started on your exploration.
+<script>
+    // console.log(document.location);
+    // console.log(document.referrer);
+    baselink = "<a id=\"homeLink\" class=\"internal-link\" href=\"/\"><b>jayas.me</b></a>"
+    if (document.location.pathname.includes("/portfolio") || document.referrer.includes("/portfolio")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/portfolio\"><b>portfolio</b></a>";
+    // if (document.location.pathname.includes("/now")) document.getElementById('navbar').innerHTML = baselink + " → <a id=\"\" class=\"internal-link\" href=\"/now\"><b>now</b></a>";
+    if (document.location.pathname == "/") document.getElementById('navbar').innerHTML = baselink
+</script></nav>
+  <div class="wrapper">
+    <main>  <content>
+    <h1>🌿<br />Hallo! I'm <a class="internal-link internal-link-page" href="/about">Jayasurya</a>,<br />this is my digital garden.</h1>
+<p>
+
 </p>
+<div class="secondary-container" style="background-color: #fafafa">
+Other places—
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/portfolio"><b>Design Portfolio</b></a>
+&nbsp;
+<a style="color: teal" class="internal-link no-preview" href="/now"><b>Now</b></a>
+</div>
 
-<p>This digital garden template is free, open-source, and <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">available on GitHub here</a>.</p>
+<p><img src="assets/pix2.png" style="object-fit: cover; height: 180px; width: 960px; margin: 2rem 0rem;" />
+Here I organize my thoughts, observations, and bits of information.
+Something like a digital mind, a second brain where I curate the things I know, the things I think I know and everything else.</p>
 
-<p>The easiest way to get started is to read this <a href="https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll">step-by-step guide explaining how to set this up from scratch</a>. If you need any help, my <a href="https://twitter.com/vaillancourtmax">DMs are open on Twitter (@vaillancourtmax)</a>. Say hi! 👋</p>
-
-<p>If this template helps you in any way, <a href="https://ko-fi.com/maximevaillancourt">consider buying me a coffee</a>! ☕️</p>
+<div class="primary-container">
+Good entry points into the garden—<br /><br />
+<div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); grid-auto-columns: minmax(240px, 1fr);">
+  <div><a class="internal-link" href="/dgarden/design">"Design"</a></div>
+  <div><a class="internal-link" href="/dgarden/gui">Graphical User Interfaces</a></div>
+  <div><a class="internal-link" href="/dgarden/dartlang">Dart Language</a></div>
+  <div><a class="internal-link" href="/dgarden/functional-imperative">Functional and Imperative</a></div>
+  <div><a class="internal-link" href="/dgarden/thought-abstractions">Thought abstractions</a></div>
+  <div><a class="internal-link" href="/dgarden/minecraft">Minecraft</a></div>
+  <div><a class="internal-link" href="/dgarden/dune">Dune</a></div>
+  <div><a class="internal-link" href="/dgarden/dgarden-meta">Pruning in a dgarden</a> <sup>(meta)</sup></div>
+  <div><a class="internal-link" href="/dgarden/cats">I'm a cat person</a> <sup>(first)</sup></div>
+  </div>
+</div>
 
 <style>
   .wrapper {
@@ -63,17 +94,19 @@
 </style>
 
 
-</content>
+  </content>
 </main>
-      <footer>This is the footer. Include anything you'd like here, like a link to an <a class="internal-link" href="/about">About</a> page.
-</footer>
-    </div>
+    <footer>Jayasurya 🐿 <a class="internal-link" href="/about">About</a>.
+Check out my <a class="internal-link" href="/portfolio">Design Portfolio</a>. Here's my <a class="link"
+    href="https://github.com/jayasio">Github</a>.<br /></footer>
+  </div>
 
-    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+  <!-- That file is not particularly elegant. This will need a refactor at some point. -->
 <style>
   content a.internal-link {
-    border-color: #8b88e6;
-    background-color: #efefff;
+    border-color: rgba(32, 165, 158, 1);
+    background-color: rgba(32, 165, 158, 0.1);
+    border-radius: 4px;
   }
 
   #tooltip-wrapper {
@@ -86,21 +119,21 @@
     width: 400px;
     height: 250px;
     font-size: 0.8em;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transition: opacity 100ms;
   }
 
   #tooltip-wrapper:after {
-		content: "";
-		position: absolute;
-		z-index: 1;
-		bottom: 0;
-		left: 0;
-		pointer-events: none;
-		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
-		width: 100%;
-		height: 75px;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 90%);
+    width: 100%;
+    height: 75px;
   }
 </style>
 
@@ -122,9 +155,9 @@
   var tooltipContent = document.getElementById('tooltip-content')
 
   function hideTooltip() {
-    opacityTimeout = setTimeout(function() {
+    opacityTimeout = setTimeout(function () {
       tooltipWrapper.style.opacity = 0;
-      contentTimeout = setTimeout(function() {
+      contentTimeout = setTimeout(function () {
         tooltipContent.innerHTML = '';
         tooltipWrapper.style.display = 'none';
       }, transitionDurationMs + 1);
@@ -138,57 +171,62 @@
 
     if (event.target.host === window.location.host) {
       iframe.src = event.target.href
-      iframe.onload = function() {
+      iframe.onload = function () {
         tooltipContentHtml = ''
-        tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
-        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+        try {
+          tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        }
+        catch (e) { }
+        finally {
+          tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
 
-        tooltipContent.innerHTML = tooltipContentHtml
+          tooltipContent.innerHTML = tooltipContentHtml
 
-        tooltipWrapper.style.display = 'block';
-        setTimeout(function() {
-          tooltipWrapper.style.opacity = 1;
-        }, 1)
+          tooltipWrapper.style.display = 'block';
+          setTimeout(function () {
+            tooltipWrapper.style.opacity = 1;
+          }, 1)
+        }
       }
 
       tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
       if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
-          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+        tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
       } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
-          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+        tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
       }
 
       if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
-          tooltipWrapper.style.left = "10px";
+        tooltipWrapper.style.left = "10px";
       } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
-          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+        tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
       }
     }
   }
 
   function setupListeners(linkElement) {
-    linkElement.addEventListener('mouseleave', function(_event) {
+    linkElement.addEventListener('mouseleave', function (_event) {
       hideTooltip();
     });
 
-    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+    tooltipWrapper.addEventListener('mouseleave', function (_event) {
       hideTooltip();
     });
 
-    linkElement.addEventListener('mouseenter', function(event) {
+    linkElement.addEventListener('mouseenter', function (event) {
       clearTimeout(opacityTimeout);
       clearTimeout(contentTimeout);
       showTooltip(event);
     });
 
-    tooltipWrapper.addEventListener('mouseenter', function(event) {
+    tooltipWrapper.addEventListener('mouseenter', function (event) {
       clearTimeout(opacityTimeout);
       clearTimeout(contentTimeout);
     });
   }
 
-  document.querySelectorAll('content a').forEach(setupListeners);
+  document.querySelectorAll('content a:not(.no-preview)').forEach(setupListeners);
 </script>
+</body>
 
-  </body>
 </html>
