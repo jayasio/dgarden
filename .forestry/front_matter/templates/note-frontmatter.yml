@@ -12,3 +12,5 @@ fields:
     required: false
   label: End of Line
   description: An emoji to signify end of note.
+pages:
+- _notes/planning-tools.md
