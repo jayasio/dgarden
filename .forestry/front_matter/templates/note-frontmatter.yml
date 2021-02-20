@@ -14,3 +14,4 @@ fields:
   description: An emoji to signify end of note.
 pages:
 - _notes/planning-tools.md
+- _notes/user.md
