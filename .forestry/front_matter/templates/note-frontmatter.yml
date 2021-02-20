@@ -13,5 +13,6 @@ fields:
   label: End of Line
   description: An emoji to signify end of note.
 pages:
+- _notes/computer.md
 - _notes/planning-tools.md
 - _notes/user.md
