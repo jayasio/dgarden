@@ -1,7 +1,6 @@
 ---
 title: Graphical User Interfaces
 endofline: "\U0001F5A5"
-published: false
 
 ---
 **Interfaces** act as a medium of interaction between two entities. **User Interfaces** are a medium between the [[User]] and the [[Computer]] (usually). In the early days, user interfaces were mechanical and later text-based; the user had to know the full scope of the program to operate the computer. Instead, **Graphical User Interfaces** provide a visual representation of all available controls and information, enabling the User to operate the computer by interacting with the graphical elements on the screen (and not worry about knowing the exact command to type).
