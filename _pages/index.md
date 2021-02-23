@@ -5,18 +5,18 @@ permalink: /
 ---
 # 👋
 # Hallo! I'm Jayasurya.
-## I am a designer + developer <br/>from Mumbai, India.
+## I am a designer + Flutter amateur <br/>from Mumbai, India.
 <div style="height:1rem"></div>
-Purposeful design and technology interest me. Spending my free time designing and building apps to manage my routines. Getting into pixel art recently. I love Tamil cinema, will probably make a must-watch list sometime. Dune fanatic. See what I'm up to <a class="internal-link internal-link-page" href="/now">now</a>.
+I design good digital experiences. I like thinking about problems and opportunities from a *systemic* point of view. Always up for a chat about tech, computing and meaningful design! See what I'm up to <a class="internal-link internal-link-page" href="/now">now</a>.
 
-Currently studying at IDC School of Design, IIT Bombay. Here's my [<span style="color:teal"><b>resume</b></span>](/resume).
+Currently studying at IDC School of Design, IIT Bombay. Here's my <a style="color:teal" href="../assets/jayasurya_resume.pdf" target="_blank"><b>resume</b></a>.
 <hr>
 <div style="height:1rem"></div>
 <div class="card-grid-2">
     <a 
     style="background-color: #e6f1f4; margin-bottom: 1.5rem;" 
     class="card-container card-link" 
-    href="/portfolio">
+    href="https://behance.net/jayabsurdyeah">
       <b>
       Design Portfolio</b>
     <br/>
@@ -25,7 +25,7 @@ Currently studying at IDC School of Design, IIT Bombay. Here's my [<span style="
     <span class="card-arrow">→</span>
     </a>
     <a 
-     style="background-color: #e6f1f4; margin-bottom: 1.5rem;" 
+     style="background-color: #f9f9f9; margin-bottom: 1.5rem;" 
      class="card-container card-link"
      href="/dgarden">
       <b>
@@ -62,9 +62,9 @@ Currently studying at IDC School of Design, IIT Bombay. Here's my [<span style="
     <span class="card-arrow">→</span>
     </a>
 </div>
-  <div class="secondary-container" style="background-color: #060606; color: white">
+  <!-- <div class="secondary-container" style="background-color: #060606; color: white">
     This site is under construction!
-  </div>
+  </div> -->
 
   <!-- <img src="../assets/96.jpg" style="object-fit: cover; width: 960px; margin: 1.5rem 0rem;"/> -->
 

@@ -1,6 +1,6 @@
 ---
-title: Art of Gardening
+title: Gardening
 endofline: 🌸
 ---
 
-Art of Gardening
+Digital Gardening: Meta
